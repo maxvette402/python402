@@ -22,7 +22,7 @@ USE_BNC = False
 
 async def main():
     start = time.time()
-    database = "/Users/marcoguastalli/opt/sqlite/prices.sqlite"
+    database = "~/opt/sqlite/prices.sqlite"
 
     conn = create_connection(database)
     try:

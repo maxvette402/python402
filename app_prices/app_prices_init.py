@@ -6,7 +6,7 @@ from db_client.execute_query import execute_query
 
 
 def main():
-    database = "/Users/marcoguastalli/opt/sqlite/prices.sqlite"
+    database = "~/opt/sqlite/prices.sqlite"
 
     conn = create_connection(database)
     try:
