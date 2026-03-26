@@ -5,8 +5,8 @@ from typing import Optional, Any, Dict
 
 # Configuration Constants
 ENDPOINT = "http://127.0.0.1:8332"
-USER = "bitcoink"
-PASSWORD = "bitcoink"
+USER = "bitcoin-rpc-user"
+PASSWORD = "bitcoin-rpc-password"
 TIMEOUT = 30
 
 
